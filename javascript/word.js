@@ -3,7 +3,7 @@ $(document).ready(() => {
     if (page == 1) {
         $('#show').append(
             "<div id='showP1'>" +
-            "<p><img class='showImage' src='../images/w1.png' /></p>" +
+            "<p><img class='showImage' src='images/w1.png' /></p>" +
             "<p>剛進入青春期的女孩，因為正要開始發育，</p>" +
             "<p>對自己身體的變化感到惶恐、不安、不知所措，</p>" +
             "<p>使得身體跟心靈都變得特別敏感。</p>" +
@@ -23,18 +23,18 @@ $(document).ready(() => {
             "<p>而少女的胸部發育與成人不同，所以穿起來不適合也不舒服，</p>" +
             "<p><strong>影響乳房的正常發育</strong>，嚴重的會導致<strong>乳房發育不良</strong>、<strong>下垂外擴</strong>，</p>" +
             "<p>也有因為衣服質量問題導致乳房疾病。</p>" +
-            "<p><img class='showImage' src='../images/w2.png' /></p>" +
-            "<p><img class='showImage' src='../images/w3.png' /></p>" +
-            "<p><img class='showImage' src='../images/w4.jpg' /></p>" +
-            "<p><img class='showImage' src='../images/w5.png' /></p>" +
-            "<p><img class='showImage' src='../images/w6.png' /></p>" +
-            "<p><img class='showImage' src='../images/w7.png' /></p>" +
-            "<p><img class='showImage' src='../images/w8.png' /></p>" +
+            "<p><img class='showImage' src='images/w2.png' /></p>" +
+            "<p><img class='showImage' src='images/w3.png' /></p>" +
+            "<p><img class='showImage' src='images/w4.jpg' /></p>" +
+            "<p><img class='showImage' src='images/w5.png' /></p>" +
+            "<p><img class='showImage' src='images/w6.png' /></p>" +
+            "<p><img class='showImage' src='images/w7.png' /></p>" +
+            "<p><img class='showImage' src='images/w8.png' /></p>" +
             "</div>"
         );
     } else {
         $('#show').append(
-            "<p><img style='width:100%;' src='../images/ww1.jpg' /></p>" +
+            "<p><img style='width:100%;' src='images/ww1.jpg' /></p>" +
             "<div id='showP1'>" +
             "<div class=\"title\" ng-non-bindable>" +
             "<h2 style=\"font-weight: bold; color: #000000; font-size: 30px;\">內衣尺寸? 32C? 36D?</h2>" +
@@ -82,7 +82,7 @@ $(document).ready(() => {
             "<span style=\"color: rgb(0, 0, 0); font-family: 微軟正黑體, Verdana, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);\">" +
             "所以 32B=70B=32/70B</span>" +
             "</p></div>" +
-            "<div class='dataShow2'><img class='showImage' src='../images/ww2.png' /></div>" +
+            "<div class='dataShow2'><img class='showImage' src='images/ww2.png' /></div>" +
             "<div class='dataShow3'>" +
             "<div class='description' ng-non-bindable><p><span style='font-size:24px;'><span style='color:#ff5f9b;'>上下胸圍怎麼量呢?</span></span></p>" +
             "<p>準備一條布尺，以公分那面來測量，<br>" +
@@ -94,7 +94,7 @@ $(document).ready(() => {
             "布尺水平環繞胸部下圍(即胸部下面肋骨處)一圈，照鏡子檢視，注意布尺前後維持同樣水平高度，這樣即可記下數字了。</p></div>" +
             "</div>" +
             "<div class='dataShow3'>" +
-            "<img class='showImage' src='../images/ww3.jpg' />" +
+            "<img class='showImage' src='images/ww3.jpg' />" +
             "</div>" +
             "</div>"
         );
