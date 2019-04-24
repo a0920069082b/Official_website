@@ -1,0 +1,41 @@
+#show {
+    width: 100%;
+}
+
+#showP1 {
+    width: 70%;
+    margin: 20px auto 50px auto;
+    text-align: left;
+}
+
+.showImage {
+    width: 50%;
+}
+
+p {
+    font-size: 17px;
+}
+
+.dataShow2 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding: 0px 0px 0px 0px;
+}
+
+.dataShow2>.showImage {
+    width: 100%;
+    margin: -120px 0px 0px 0px;
+}
+
+.dataShow3 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding: 0px 0px 0px 0px;
+}
+
+.dataShow3>.showImage {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
