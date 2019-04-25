@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>凱芮絲內衣</title>
-    <link rel="stylesheet" type='text/css'
-        href="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type='text/css' href="css/bootstrap.min.css">
     <link rel='stylesheet' type='text/css' href='css/header.css' />
     <link rel='stylesheet' type='text/css' href='css/footer.css' />
     <link rel='stylesheet' type='text/css' href='css/word.css' />
@@ -16,13 +15,25 @@
 <body>
     <div id='bodyDiv'>
         <div id='headDiv'>
+            <div id='headDivSearch'>
+                <a href="#">
+                    <image id='search' title='登入' src='images/user-01.png' />
+                </a>
+                <a href="#">
+                    <image id='search' title='購物車' src='images/user-02.png' />
+                </a>
+                <a href="#">
+                    <image id='search' title='我的最愛' src='images/user-03.png' />
+                </a>
+                <a href="#">
+                    <image id='search' title='搜尋' src='images/search.png' />
+                </a>
+                <input type='text' placeholder='搜尋' id='searchText' />
+            </div>
             <a href='index.html'>
                 <image id='logo' src='images/LOGO.png' /></a>
             <br />
-            <div id='headDivSearch'>
-                <image id='search' src='images/search.png' />
-                <input type='text' placeholder='搜尋' id='searchText' />
-            </div>
+
         </div>
         <div id='listDiv'>
             <nav id='listNav' class="navbar navbar-default " role="navigation">
@@ -103,6 +114,8 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-center">
+                                <li><a href="product.html">全部商品</a></li>
+                                <li class="divider"></li>
                                 <li><a href="#">萌芽期</a></li>
                                 <li class="divider"></li>
                                 <li><a href="#">發育期</a></li>
@@ -232,7 +245,7 @@
     </div>
 </body>
 <script type='text/javascript' src='jquery/jquery-3.4.0.min.js'></script>
-<script type='text/javascript' src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type='text/javascript' src="jquery/bootstrap.min.js"></script>
 <script type='text/javascript' src='javascript/word.js'></script>
 
 </html>

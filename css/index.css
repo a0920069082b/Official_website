@@ -40,5 +40,12 @@
 }
 
 
+#ImageDiv {
+    width: 82%;
+    text-align: center;
+    margin: 30px auto 30px auto;
+}
 
-
+#footerImage {
+    width: 100%;
+}

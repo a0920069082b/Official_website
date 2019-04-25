@@ -1,0 +1,68 @@
+#show {
+    width: 79.5%;
+    text-align: center;
+    margin: auto
+}
+
+#product {
+    display: inline-block;
+    width: 69%;
+    vertical-align: top;
+}
+
+#detail {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.detaildHr {
+    width: 80%;
+    height: 3px;
+    border: none;
+    border-top: 3px solid #BEB8DB;
+    margin: 0px 0px 0px 0px;
+}
+
+.detailTabel {
+    width: 80%;
+    font-size: 16px;
+}
+
+td {
+    height: 50px;
+}
+
+.productShow {
+    width: 100%;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 0px 5px 0px;
+
+}
+
+.productShowTitle {
+    font-size: 19px;
+}
+
+.productShowImageDiv01 {
+    display: inline-block;
+    width: 22%;
+    margin: 10px 5px 0px 5px;
+}
+
+.productShowImageDiv01Image {
+    width: 100%;
+}
+
+.search1 {
+    width: 9.2%;
+    vertical-align: middle;
+    background-color: #BEB8DB;
+    margin-left: -3.5px;
+}
+
+.priceP {
+    color: #FF88C2;
+}

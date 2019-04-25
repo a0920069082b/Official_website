@@ -1,0 +1,151 @@
+#show {
+    width: 79.5%;
+    text-align: center;
+    margin: auto
+}
+
+#product {
+    display: inline-block;
+    width: 69%;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#detail {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.detaildHr {
+    width: 80%;
+    height: 3px;
+    border: none;
+    border-top: 3px solid #BEB8DB;
+    margin: 0px 0px 0px 0px;
+}
+
+.detailTabel {
+    width: 80%;
+    font-size: 16px;
+}
+
+td {
+    height: 50px;
+}
+
+
+#productShowImage {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+
+#detailImage {
+    width: 93%;
+
+}
+
+#productShowText {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    margin-top: 20px;
+}
+
+#productShowText>label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input {
+    padding-left: 5px;
+    font-size: 16px;
+    width: 50px;
+}
+
+.inputbtn {
+    background-color: #BEB8DB;
+    border-radius: 5px 5px;
+    color: #FFFFFF;
+    border: 0px;
+    box-shadow: 5px 5px 5px #888888;
+    width: 35%;
+    height:40px;
+    margin-right: 40px;
+}
+
+#productShowDetailImage {
+    width: 35%;
+    overflow-x: scroll;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.productShowDetailImage {
+    width: 20%;
+    margin-right: 10px;
+}
+
+#shareDiv {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.shareImage {
+    width: 3.5%;
+}
+
+#detailDiv {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#btnDiv{
+    width:100%;
+    margin-top:20px;
+}
+
+
+
+.detailDivImg{
+    width:40%;
+}
+
+
+
+.productShow {
+    width: 100%;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 0px 5px 0px;
+
+}
+
+.productShowTitle {
+    font-size: 19px;
+}
+
+.productShowImageDiv01 {
+    display: inline-block;
+    width: 22%;
+    margin: 10px 5px 0px 5px;
+}
+
+.productShowImageDiv01Image {
+    width: 100%;
+}
+
+.search1 {
+    width: 9.2%;
+    vertical-align: middle;
+    background-color: #BEB8DB;
+    margin-left: -3.5px;
+}
+
+.priceP {
+    color: #FF88C2;
+}
+

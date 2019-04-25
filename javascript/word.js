@@ -34,7 +34,7 @@ $(document).ready(() => {
         );
     } else {
         $('#show').append(
-            "<p><img style='width:100%;' src='images/ww1.jpg' /></p>" +
+            "<p><img style='width:79.5%;' src='images/ww1.jpg' /></p>" +
             "<div id='showP1'>" +
             "<div class=\"title\" ng-non-bindable>" +
             "<h2 style=\"font-weight: bold; color: #000000; font-size: 30px;\">內衣尺寸? 32C? 36D?</h2>" +
@@ -50,9 +50,9 @@ $(document).ready(() => {
             "<span style=\"color:#000000;\">與</span>" +
             "<span style=\"color:#de3d7f;\">下胸圍</span>" +
             "</span></h2><hr/></div>" +
-            "<div class=\"description dataShow2\" ng-non-bindable><p> </p>" +
+            "<div class=\"description dataShow2\" ng-non-bindable><p> </p><br/><br/>" +
             "<p>上胸圍是指以BP點（即乳頭點 bustpoint）為測點，用軟皮尺水平測量胸部最豐滿處一圈，即為上胸圍尺寸喔，簡單來說就是胸部最飽滿的胸圍長度。</p>" +
-            "<p>而下胸圍則是使用軟皮尺水平測量胸部底部一圈的長度喔。</p>" +
+            "<br/><p>而下胸圍則是使用軟皮尺水平測量胸部底部一圈的長度喔。</p><br/>" +
             "<p>而常見的尺寸32/34/36/38就是指下胸圍的尺寸，單位是英吋(這是美制算法，不等於英吋唷)，而另外70/75/80/85則是指公分數(為英日常用尺碼)</p>" +
             "<p>" +
             "<span style=\"color: rgb(0, 0, 0); font-family: 微軟正黑體, Verdana, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);\">換算表如下(以此類推)：</span>" +
@@ -84,7 +84,7 @@ $(document).ready(() => {
             "</p></div>" +
             "<div class='dataShow2'><img class='showImage' src='images/ww2.png' /></div>" +
             "<div class='dataShow3'>" +
-            "<div class='description' ng-non-bindable><p><span style='font-size:24px;'><span style='color:#ff5f9b;'>上下胸圍怎麼量呢?</span></span></p>" +
+            "<div class='description' ng-non-bindable><p><span style='font-size:24px;'><span style='color:#ff5f9b;'><br/><br/>上下胸圍怎麼量呢?</span></span></p>" +
             "<p>準備一條布尺，以公分那面來測量，<br>" +
             "建議穿著沒有襯墊的內衣測量，計算會更準確。</p>" +
             "<p>女性的身體較為敏感，盡量避免在生理期脹奶、水腫或飯後測量，以免產生尺寸誤差唷！<br>" +
@@ -94,9 +94,9 @@ $(document).ready(() => {
             "布尺水平環繞胸部下圍(即胸部下面肋骨處)一圈，照鏡子檢視，注意布尺前後維持同樣水平高度，這樣即可記下數字了。</p></div>" +
             "</div>" +
             "<div class='dataShow3'>" +
-            "<img class='showImage' src='images/ww3.jpg' />" +
+            "<br/><br/><img class='showImage' src='images/ww3.jpg' />" +
             "</div>" +
-            "</div>"
+            "</div><br/>"
         );
     }
 });
